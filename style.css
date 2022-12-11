@@ -19,7 +19,7 @@ p{
 
 .output1{
     font-size: 43px;
-    margin-top: 120px;
+    margin-top: 180px;
 }
 
 .output2{
@@ -32,10 +32,10 @@ p{
 }
 
 h1{
-    font-size: 200px;
-    color: #125240;
+    font-size: 40px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 120px;
+    margin-bottom: 180px;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;    
     background: url(img/back2.jpg) center;
     -webkit-text-fill-color: transparent;
@@ -106,18 +106,18 @@ a:hover span{
         background: linear-gradient(90deg, rgba(0, 0, 0, 0.7),
                     rgba(0, 0, 0, 0.5)60%, rgba(0, 0, 0, 0.4)),
                     url(img/pexels.jpg) center center / cover no-repeat;
-        background-color: navy;
         height: auto;
         width: auto;
     }
 
     .output1{
         font-size: 70px;
-        margin-top: 90px;
+        margin-top: 140px;
     }
     
     .output2{
         font-size: 50px;
+        margin: 100px;
     }
     
     .output3{
@@ -126,8 +126,10 @@ a:hover span{
     }
 
     h1{
-        font-size: 254px;
+        font-size: 100px;
     }
+
+    
 }
 
 @media only screen and (min-width: 1200px){
@@ -153,6 +155,7 @@ a:hover span{
     }
 
     h1{
-        font-size: 254px;
+        font-size: 150px;
+        margin-top: 70px;
     }
 }
